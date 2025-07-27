@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Checkout - Goody-Wears Fashion House</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">Goody-Wears</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="cart.html">Cart</a>
+      <a href="about.html">About</a>
+      <a href="Active" class="checkout.html">Checkout</a>
+    </nav>
+    
+  </header>
+
+  <section class="checkout-section">
+    <h1>Checkout</h1>
+
+    <form class="checkout-form" id="checkoutForm">
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="text" placeholder="Shipping Address" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <div class="order-summary">
+  <h3>Your Order:</h3>
+  <ul id="order-items"></ul>
+</div>
+
+      <div class="total-summary">
+        Total Amount: <strong id="checkout-total">₦0</strong>
+      </div>
+      <h2>Total to Pay: <span id="checkout-total"></span></h2>
+
+      <button type="submit">Place Order</button>
+    </form>
+
+    <div class="thank-you-message" id="thankYouMsg">
+      🎉 Thank you for your order! We’ll contact you soon.
+    </div>
+  </section>
+  
+<script src="checkout.js"></script>
+
+</body>
+</html>
