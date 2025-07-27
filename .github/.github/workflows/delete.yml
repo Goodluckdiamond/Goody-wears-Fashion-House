@@ -1,0 +1,10 @@
+name: Delete ZIP
+on:
+  push:
+    branches: [main]
+jobs:
+  delete-zip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete zip
+        run: rm shop.zip 
