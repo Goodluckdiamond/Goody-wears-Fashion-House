@@ -437,3 +437,55 @@ footer {
     margin: auto;
   }
 }
+/* ========== Mobile Fixes ========== */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .cart-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .cart-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .cart-item-details {
+    text-align: center;
+    padding: 10px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .products-container,
+  .product-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input,
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
