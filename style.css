@@ -16,14 +16,13 @@ body {
      }
 
 header {
-    display:flex;
-    flex-wrap:wrap;
+  display: flex;
+  flex-wrap: wrap;
     background-color: #000;
     padding: 1.25rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction:row;
 }
 
 .logo {
@@ -37,7 +36,8 @@ header {
 }
 nav {
   display: flex;
-  gap: 10px;
+  gap: 5px;
+  justify-content: flex-end;
 }
 
 nav a {
