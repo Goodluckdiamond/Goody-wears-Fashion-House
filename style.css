@@ -16,6 +16,8 @@ body {
      }
 
 header {
+    display:flex;
+    flex-wrap:wrap;
     background-color: #000;
     padding: 1.25rem 2rem;
     display: flex;
